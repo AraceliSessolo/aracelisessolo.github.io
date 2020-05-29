@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+
+    <head>
+      <meta charset="utf-8">
+      <title>Sala de Escape</title>
+      <meta name="viewporta" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+      <link rel="stylesheet" href="css/styles.css">
+    </head>
+
+    <body>
+      <script languaje="javascript">
+      var getin = prompt("Poné la contraseña")
+      if (getin!="82sor")
+      {location.href="errorsalademaq.html"}
+      else
+      {alert('¡Contraseña correcta! Presiona "Aceptar" para continuar')}
+      </script>
+
+      <header class="header">
+        <div class="contenedor">
+          <h1 class="logo">Sala de Escape</h1>
+          <nav class="nav">
+            <ul class="menu">
+              <li class="menu__item"> <a class="menu__link" href="index.html">Inicio</a></li>
+              <li class="menu__item"> <a class="menu__link" href="sotano.html">Sótano</a></li>
+              <li class="menu__item"> <a class="menu__link" href="deposito.html">Depósito</a></li>
+              <li class="menu__item"> <a class="menu__link select" href="salademaq.html">Sala de Máquinas</a></li>
+              <li class="menu__item"> <a class="menu__link" href="salademant.html">Sala de Mantenimiento</a></li>
+              <li class="menu__item"> <a class="menu__link" href="puertadesalida.html">Puerta de Salida</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+        <div class="banner">
+          <img src="img/salademaqbanner.jpg" alt="" class="banner__img">
+          <div class="contenedor">
+            <h2 class="banner__titulo">Sala de máquinas</h2>
+            <p class="banner__txt">Estás cerca de lograrlo...</p>
+          </div>
+        </div>
+        <div class="">
+          <img src="img/salademaqtablero.jpg" alt="" class="imagenmaq">
+          <img src="img/salademaqmesa.jpg" alt="" class="imagenmaq1">
+          <div class="texto">
+            <p class="texto__txt2">¡Llegaste a la sala de máquinas! Falta poco para poder escaparte.</p>
+            <p class="texto__txt">Hay una única puerta que dice "Sala de mantenimiento" pero está cerrada. Al lado de la puerta hay un tablero digital que necesita una contraseña para desbloquear la puerta.</p>
+            <p class="texto__txt">Sobre uno de los escritorios hay varios escritos con informes sobre el funcionamiento de las máquinas. Pero hay cinco papeles que te llaman la atención porque contienen algunos enigmas.</p>
+            <p class="texto__txt">Una de esas notas tiene la clave de acceso pero la hoja está rota en el sector donde esta escrito el código. Hay que descifrarlo para desbloquear la puerta y llegar a la siguiente sala.</p>
+          </div>
+        </div>
+
+        <div class="">
+          <img src="img/salademaqpapeles.jpg" alt="" class="dato1" id="dato2" onclick="openModal()">
+        </div>
+  <!---..................Poner los CINCO ACERTIJOS uno debe reunir los otros cuatro acertijos
+  https://www.w3schools.com/howto/howto_css_modals.asp
+  https://www.w3schools.com/howto/..................--->
+
+        <div class="row">
+          <div class="column">
+            <img class="fotito" src="acert/acertijomaq1.jpg" style="height: 50%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+          </div>
+          <div class="column">
+            <img class="fotito" src="acert/acertijomaq2.jpg" style="height: 50%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+          </div>
+          <div class="column">
+            <img class="fotito" src="acert/acertijomaq3.jpg" style="height: 50%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+          </div>
+          <div class="column">
+            <img class="fotito" src="acert/acertijomaq4.jpg" style="height: 50%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+          </div>
+          <div class="column">
+            <img class="fotito" src="acert/acertijomaq5.jpg" style="height: 50%" onclick="openModal();currentSlide(5)" class="hover-shadow cursor">
+          </div>
+        </div>
+
+        <div id="myModal" class="modal">
+          <span class="close cursor" onclick="closeModal()">&times;</span>
+          <div class="modal-content">
+
+            <div class="mySlides">
+              <!-- <div class="numbertext">1 / 5</div> -->
+              <img class="fotito" src="acert/acertijomaq1.jpg" style="height: 50%">
+            </div>
+
+            <div class="mySlides">
+              <!-- <div class="numbertext">2 / 5</div> -->
+              <img class="fotito" src="acert/acertijomaq2.jpg" style="height: 50%">
+            </div>
+
+            <div class="mySlides">
+              <!-- <div class="numbertext">3 / 5</div> -->
+              <img class="fotito" src="acert/acertijomaq3.jpg" style="height: 50%">
+            </div>
+
+            <!-- <div class="numbertext">4 / 5</div> -->
+            <div class="mySlides">
+              <img class="fotito" src="acert/acertijomaq4.jpg" style="height: 50%">
+            </div>
+
+            <!-- <div class="numbertext">5 / 5</div> -->
+            <div class="mySlides">
+              <img class="fotito" src="acert/acertijomaq5.jpg" style="height: 50%">
+            </div>
+
+
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                <div class="caption-container">
+                  <p id="caption"></p>
+                </div>
+
+
+            </div>
+          </div>
+
+
+
+
+
+
+
+          <script src="js/datos.js"> </script>
+          <script>
+            function openModal() {
+              document.getElementById("myModal").style.display = "block";
+            }
+
+            function closeModal() {
+              document.getElementById("myModal").style.display = "none";
+            }
+
+            var slideIndex = 1;
+            showSlides(slideIndex);
+
+            function plusSlides(n) {
+              showSlides(slideIndex += n);
+            }
+
+            function currentSlide(n) {
+              showSlides(slideIndex = n);
+            }
+
+            function showSlides(n) {
+              var i;
+              var slides = document.getElementsByClassName("mySlides");
+              var dots = document.getElementsByClassName("demo");
+              var captionText = document.getElementById("caption");
+              if (n > slides.length) {
+                slideIndex = 1
+              }
+              if (n < 1) {
+                slideIndex = slides.length
+              }
+              for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+              }
+              for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+              }
+              slides[slideIndex - 1].style.display = "block";
+              dots[slideIndex - 1].className += " active";
+              captionText.innerHTML = dots[slideIndex - 1].alt;
+            }
+          </script>
+
+    </body>
+</html>

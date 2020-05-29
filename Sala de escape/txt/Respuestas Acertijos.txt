@@ -1,0 +1,42 @@
+Acertijo sótano 1: 82718
+				8
+			1	7
+		2	4	3
+	2	2	9	4
+8	4	7	4	8
+
+Acertijo sótano 2: 50-25-75-50 -> 52750
+Acertijo sótano 3: DIVISOR
+							M	O	D	A						
+C	U	A	N	T	I	T	A	T	I	V	O	S				
+					E	Q	U	I	V	A	L	E	N	T	E	S
+							P	R	I	M	O					
+			E	S	T	A	D	I	S	T	I	C	A			
+					F	A	C	T	O	R	E	O				
+							P	O	R	C	E	N	T	A	J	E
+
+
+ACCESO A DEPÓSITO: 52750
+
+Acertijo depósito: "IMPORTANTE: la clave son los dos primeros dígitos del segundo código del sótano y las tres últimas letras del código alfabético."
+
+
+
+ACCESO A SALA DE MÁQUINAS:82SOR
+
+Acertijo sala maquinas1: 1777 (Gauss)
+Acertijo sala maquinas2: 3469 (rompecabezas)
+Acertijo sala maquinas3: 3165 (circ:3, cuad:1, raya:6, trian:5)
+Acertijo sala maquinas4: 8598 (figura reflejada)
+Acertijo sala maquinas5: 5675 (necesita de los anteriores)
+
+
+ACCESO A SALA DE MANTENIMIENTO: 5675
+
+Acertijo sala matenimiento: hora azul: 12.25 / hora roja: 17.00
+
+
+
+ACCESO A PUERTA DE SALIDA: 1725
+
+
