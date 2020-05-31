@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Sala de Escape</title>
+  <meta name="viewporta" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="contenedor">
+      <h1 class="logo">Sala de Escape</h1>
+      <nav class="nav">
+        <ul class="menu">
+          <li class="menu__item"> <a class="menu__link" href="index.html">Inicio</a></li>
+          <li class="menu__item"> <a class="menu__link select" href="sotano.html">Sótano</a></li>
+          <li class="menu__item"> <a class="menu__link" href="deposito.html">Depósito</a></li>
+          <li class="menu__item"> <a class="menu__link" href="salademaq.html">Sala de Máquinas</a></li>
+          <li class="menu__item"> <a class="menu__link" href="salademant.html">Sala de Mantenimiento</a></li>
+          <li class="menu__item"> <a class="menu__link" href="puertadesalida.html">Puerta de Salida</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <div class="banner">
+    <img src="img/sotanobanner.jpg" alt="" class="banner__img">
+    <div class="contenedor">
+      <h2 class="banner__titulo">Sótano</h2>
+      <p class="banner__txt">Iniciemos el escape</p>
+    </div>
+  </div>
+
+  <div class="">
+    <img src="img/sotanosoga.jpg" alt="" class="imagensotano1">
+    <img src="img/sotanocandado.jpg" alt="" class="imagensotano2">
+    <div class="texto">
+      <p class="texto__txt">Lográs sacarte la capucha y desatar los nudos de las sogas que te sostienen las manos y pies.</p>
+      <p class="texto__txt">Sabés que hay una copia de la llave que abre el candado de la puerta para salir del sótano, pero está dentro de una caja con un código de seguridad de cinco dígitos.</p>
+      <p class="texto__txt">En una mesa, encontrás algunas notas. Hay una de ellas que oculta el código de la caja de seguridad. Los otros dos códigos guardalos porque pueden servirte para más adelante.</p>
+    </div>
+  </div>
+
+  <div class="">
+    <img href="ventana1" src="img/sotanomesa.jpg" alt="" class="dato1" id="dato1" onclick="openModal()">
+    </div>
+  </div>
+
+
+  <!---......................................PONER EN VENTANA EMERGENTE......................................--->
+
+  <div class="row">
+    <div class="column">
+      <img class="fotito" src="acert/acertijosotano1.jpg" style="height: 50%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+    </div>
+    <div class="column">
+      <img class="fotito" src="acert/acertijosotano2.jpg" style="height: 50%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+    </div>
+    <div class="column">
+      <img class="fotito" src="acert/acertijosotano3.jpg" style="height: 50%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+    </div>
+    <div class="column">
+      <img class="fotito" src="acert/acertijosotano4.jpg" style="height: 50%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+    </div>
+  </div>
+
+  <div id="myModal" class="modal">
+    <span class="close cursor" onclick="closeModal()">&times;</span>
+    <div class="modal-content">
+
+      <div class="mySlides">
+        <!-- <div class="numbertext">1 / 4</div> -->
+        <img class="fotito" src="acert/acertijosotano1.jpg" style="height: 50%">
+      </div>
+
+      <div class="mySlides">
+        <!-- <div class="numbertext">2 / 4</div> -->
+        <img class="fotito" src="acert/acertijosotano2.jpg" style="height: 50%">
+      </div>
+
+      <div class="mySlides">
+        <!-- <div class="numbertext">3 / 4</div> -->
+        <img class="fotito" src="acert/acertijosotano3.jpg" style="height: 50%">
+      </div>
+
+          <div class="mySlides">
+            <img class="fotito" src="acert/acertijosotano4.jpg" style="height: 50%">
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+          <div class="caption-container">
+            <p id="caption"></p>
+          </div>
+
+
+      </div>
+    </div>
+
+
+
+
+
+
+
+    <script src="js/datos.js"> </script>
+    <script>
+      function openModal() {
+        document.getElementById("myModal").style.display = "block";
+      }
+
+      function closeModal() {
+        document.getElementById("myModal").style.display = "none";
+      }
+
+      var slideIndex = 1;
+      showSlides(slideIndex);
+
+      function plusSlides(n) {
+        showSlides(slideIndex += n);
+      }
+
+      function currentSlide(n) {
+        showSlides(slideIndex = n);
+      }
+
+      function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("demo");
+        var captionText = document.getElementById("caption");
+        if (n > slides.length) {
+          slideIndex = 1
+        }
+        if (n < 1) {
+          slideIndex = slides.length
+        }
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+        captionText.innerHTML = dots[slideIndex - 1].alt;
+      }
+    </script>
+
+</body>
+
+</html>

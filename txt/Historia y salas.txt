@@ -1,0 +1,64 @@
+Inicio
+
+Hace una semana fuiste secuestrado por una banda de delicuentes y te tienen encerrado en una fábrica abandonada.
+Te encuentras en el sótano de la fábrica atado de pies y manos y con la cabeza tapada. Pero los nudos se fueron aflojando y podrías desatarlos fácilmente.
+Con el pasar de los días, ya conocés todos los movimientos de los delicuentes y los tiempos que tardan en volver a verte.
+En este momento, los tres secuestradores salieron de la fábrica y te dejaron solo. ¡Es tu momento para escapar!
+Tenés solamente 60 minutos para hacerlo antes que vuelvan y te encuentren intentando huir.
+Recomendación: tener lápiz y papel para ayudarte
+
+
+Sótano PONER UN RELOJ/TEMPORIZADOR
+Lográs sacarte la capucha y desatar los nudos de las sogas que te sostienen las manos y pies.
+Sabés que hay una copia de la llave que abre la puerta para salir del sótano, pero está dentro de una caja con un código de seguridad de cuatro dígitos.
+En una mesa, encontrás algunas notas. Hay una de ellas que oculta el código de la caja de seguridad.
+Los demás códigos guardalos porque pueden servirte para más adelante.
+PONER TRES CÓDIGOS (dos de cuatro dígitos y uno alfabético de 6 letras)
+
+
+
+Depósito COPIAR EL RELOJ
+Saliste del sótano y llegaste al depósito. Está todo bastante desordenado y un poco sucio. Hay una puerta que dice "Sala de máquinas" pero está cerrada con llave.
+En uno de los cajones de una mesa de trabajo, hay un criptex con la llave de la próxima puerta.
+Debajo de la caja se encuentra la siguiente nota que a simple vista parece algo confusa, pero esconde algo:
+"IMPORTANTE: la clave son los dos primeros dígitos del segundo código del sótano y las tres últimas letras del código alfabético."
+
+IMPORTANTE: LA Casa de LAura es VErde. SON sus hijos LOS DOS PRIMEROS que DecIdieron Gastar dInero en ese color de pinTura. lOS DE La SEGUridad
+cuaNDO vieron el color pensaron que era un CODIGO DE La familia para identificarSe y mOsTrAr a qué grupo pertenecíaN, perO eso no fue así.
+Yo vi que LAS TRES ventanas del ULTIMo piso lAS habían pintado de vioLETa. RASparon el color DEL teChO y DIeGO, lo pintó de AmariLlo. 
+FABrizio dijo que era poco ETICO.
+
+
+
+Sala de máquinas COPIAR EL RELOJ
+¡Llegaste a la sala de máquinas! Falta poco para poder escaparte.
+Hay una única puerta que dice "Sala de mantenimiento" pero está cerrada. Al lado de la puerta hay un tablero digital que necesita una contraseña para desbloquear la puerta.
+Sobre uno de los escritorios hay varias carpetas con informes sobre el funcionamiento de las máquinas. 
+Pero hay 5 carpetas que tienen distinto color y contienen algunos enigmas. 
+Una de esas carpetas dice clave de acceso pero alguien rompió la hoja en el sector donde estaba escrito el código.
+CUATRO ACERTIJOS Y UNO QUE UNA TODO Y DE LA CLAVE DE ACCESO
+
+
+
+Sala de mantenimiento COPIAR EL RELOJ
+¡¡Estás a una prueba de poder escaparte!!
+Queda un último candado numérico por abrir, el de la puerta de salida.
+En la sala hay varias estanterías y en una de ellas encontrás unas notas...
+
+
+
+Puerta de salida COPIAR EL RELOJ
+MENOS DE 60 MIN
+¡¡Lo lograste!! Pudiste escapar, sos libre
+
+MÁS de 60 MIN
+Desbloqueaste todas las pruebas pero no lo hiciste a tiempo. Han vuelto los secuestradores y te encontraron intentando escapar.
+
+
+https://colorhunt.co/palette/149559 PALETA DE COLORES
+
+
+https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_win_settimeout
+https://www.w3schools.com/jsref/met_win_settimeout.asp
+
+
